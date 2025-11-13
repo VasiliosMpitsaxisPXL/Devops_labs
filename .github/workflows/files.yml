@@ -1,0 +1,14 @@
+name: Add directory
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: mkdir nieuwe_map
+      - run: echo dit is een stuk tekst nieuwe_tekst > nieuwe_map
+      - run: cat nieuwe_tekst
+    
