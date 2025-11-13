@@ -9,6 +9,6 @@ jobs:
 
     steps:
       - run: mkdir nieuwe_map
-      - run: echo dit is een stuk tekst nieuwe_tekst > nieuwe_map
-      - run: cat nieuwe_tekst
+      - run: echo dit is een stuk tekst > nieuwe_map/nieuwe_tekst
+      - run: cat nieuwe_tekst/nieuwe_tekst
     
