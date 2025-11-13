@@ -10,5 +10,5 @@ jobs:
     steps:
       - run: mkdir nieuwe_map
       - run: echo dit is een stuk tekst > nieuwe_map/nieuwe_tekst
-      - run: cat nieuwe_tekst/nieuwe_tekst
+      - run: cat nieuwe_map/nieuwe_tekst
     
