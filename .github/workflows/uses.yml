@@ -10,9 +10,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5.0.0
+        
       - name: Setup python v3.13
         uses: actions/setup-python@v6.0.0
         with:
           python-version: '3.13'
-      - run: 
+      - name: Run my_script.py
+      - run: python my_script.py
+      
           
