@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Toon titel en body van het issue
-      - run: |
+        run: |
           echo "Issue title: ${{ github.event.issue.title }}"
           echo "Issue body:"
           echo "${{ github.event.issue.body }}"
